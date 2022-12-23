@@ -74,11 +74,7 @@ int main()
 
     std::pair<std::string, sort_f> sorts[] = {
         { "heap_sort",  cppsort::heap_sort  },
-        { "pdq_sort",   cppsort::pdq_sort   },
-        { "quick_sort", cppsort::quick_sort },
-        { "ska_sort",   cppsort::ska_sort   },
-        { "std_sort",   cppsort::std_sort   },
-        { "verge_sort", cppsort::verge_sort },
+        { "splay_sort",  cppsort::splay_sort  },
     };
 
     std::size_t sizes[] = { 1'000'000 };
